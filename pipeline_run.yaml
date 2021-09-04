@@ -1,13 +1,4 @@
-name: 'Runner'
-on:
-  push:
-    branches:
-      - main
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@main
-      - name: Open proj
-        run: python hello.py
+version: 1.0
+runtime: python3
+run:
+  command: python hello.py
