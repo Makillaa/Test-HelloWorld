@@ -1,12 +1,12 @@
 from flask import Flask
-import hello
+# import hello
 
 application = Flask(__name__)
 
 
 @application.route("/")
 def root():
-    return hello
+    return "Hello World"
   
 
 if __name__ == "__main__":
