@@ -1,4 +1,9 @@
 version: 1.0
 runtime: python3 
-run:
-  command: python hello.py
+build:
+  commands:
+    build:
+      - pip install pipenv
+      - pipenv install 
+run: 
+  command: python app.py
