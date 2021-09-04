@@ -4,6 +4,7 @@ build:
   commands:
     build:
       - pip install pipenv
-      - pipenv install 
+      - pipenv install
+      - pip install -r requirements.txt
 run: 
-  command: python hello.py
+  command: python application.py
