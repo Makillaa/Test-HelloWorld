@@ -4,5 +4,4 @@ build:
   commands:
     build:        
       - pip install -r requirements.txt
-run:
-  command: python application.py
+run: python application.py
