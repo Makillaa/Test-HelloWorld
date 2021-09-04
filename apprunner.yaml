@@ -1,4 +1,3 @@
 version: 1.0
 runtime: python3
-run:
-  command: python hello.py
+run: python hello.py
