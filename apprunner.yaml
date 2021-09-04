@@ -1,3 +1,4 @@
 version: 1.0
-os: linux
-run: python hello.py
+runtime: python3 
+run:
+  command: python application.py
